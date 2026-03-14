@@ -163,27 +163,6 @@ Este projeto foi desenvolvido utilizando as seguintes ferramentas:
 
 ---
 
-## Estrutura do Projeto
-
-
-projeto-rfm-segmentacao/
-│
-├── data/ # Dados brutos e/ou dados tratados utilizados no projeto
-│
-├── notebooks/ # Notebook principal contendo toda a análise
-│ └── analise_segmentacao_rfm.ipynb
-│
-├── outputs/ # Arquivos gerados durante a análise
-│ ├── rfm_final_with_segment.csv
-│ ├── segment_stats.csv
-│ └── rfm_exec_log.txt
-│
-├── README.md # Documentação do projeto
-│
-└── requirements.txt # Dependências do projeto (opcional)
-
----
-
 # Conclusão
 
 Este projeto demonstra como a metodologia RFM pode ser utilizada para transformar dados transacionais em insights estratégicos sobre comportamento de clientes.

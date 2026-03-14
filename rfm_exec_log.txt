@@ -1,0 +1,17 @@
+LOG DE EXECUÇÃO - ENGENHARIA RFM
+Data/Hora de execução: 2026-01-13 22:36:55
+
+Resumo da execução:
+- Total de clientes processados: 552,250
+
+Estatísticas dos Scores RFM:
+- R_score: min=1 | max=5
+- F_score: min=1 | max=5
+- M_score: min=1 | max=5
+
+Etapas executadas:
+- Carregamento da base tratada (df_limpo)
+- Construção dos indicadores de Recência, Frequência e Valor Monetário
+- Cálculo dos scores R, F e M via quintis
+- Montagem da base final rfm_final
+- Exportação do dataset final
